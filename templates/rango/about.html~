@@ -1,0 +1,19 @@
+
+<!DOCTYPE HTML>
+
+{% load static %} <!-- New line -->
+
+<html>
+
+  <head>
+    <title>ABOUT</title>
+  </head>
+
+  <body>
+    <h1>Aboot</h1>
+    hello world! <strong>{{boldmessage}}</strong><br />
+    <a href="/rango/">About</a><br />
+    <img src="{% static "macklemore.jpg" %}" alt = "Picture of Macklemore" /> <!--New line -->
+  </body>
+
+</html>
